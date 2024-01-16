@@ -8,9 +8,11 @@ public_folder: "/img"
 collections:
   - name: "pages"
     label: "Stránky"
+    create: true # Allow users to create new documents in this collection
     files:
       - name: "home"
-        label: "Úvodní Stránka"
+        label: "Úvod"
+        folder: "content"
         file: "src/content/home.md"
         fields:
           - {label: "Titulek", name: "title", widget: "string"}
