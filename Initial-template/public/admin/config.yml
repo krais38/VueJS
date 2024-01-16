@@ -2,19 +2,25 @@ backend:
   name: git-gateway
   branch: main # nebo main, podle toho, jakou hlavní větev používáte
 
-media_folder: "src/assets/images"
-public_folder: "/assets/images"
+media_folder: "static/img" # Složka pro ukládání médií
+public_folder: "/img"
 
 collections:
   - name: "pages"
     label: "Stránky"
     files:
       - name: "home"
-        label: "Domovská stránka"
-        file: "src/content/home.json"
+        label: "Úvodní Stránka"
+        file: "src/content/home.md"
         fields:
           - {label: "Titulek", name: "title", widget: "string"}
-          - {label: "Obsah", name: "content", widget: "markdown"}
+          - {label: "Obsah", name: "body", widget: "markdown"}
+      - name: "about"
+        label: "O Nás"
+        file: "src/content/about.md"
+        fields:
+          - {label: "Titulek", name: "title", widget: "string"}
+          - {label: "Obsah", name: "body", widget: "markdown"}
 
   - name: "portfolio"
     label: "Portfolio"
