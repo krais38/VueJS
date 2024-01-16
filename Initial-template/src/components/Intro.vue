@@ -6,7 +6,7 @@
         <p>Krátký odstavec, který zdůrazňuje vaše zkušenosti a schopnost poskytovat unikátní řešení pro každého klienta, s důrazem na profesionální přístup a individuální potřeby.</p>
       </div>
       <figure class="c-intro__image">
-        <img src="@/assets/img/img/img__intro.png" alt=""> 
+        <img src="@/assets/img/img/img__intro.png" alt="test"> 
       </figure>
     </section>
   </template>
