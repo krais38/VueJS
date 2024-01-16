@@ -2,5 +2,8 @@
   "devDependencies": {
     "sass": "^1.69.7",
     "sass-loader": "^14.0.0"
+  },
+  "dependencies": {
+    "netlify-cms": "^2.10.192"
   }
 }
