@@ -1,20 +1,7 @@
-<script>
-import HomeContent from '@/content/home.json';
-
-export default {
-  data() {
-    return {
-      content: HomeContent
-    };
-  }
-};
-</script>
-
-
 <template>
     <section class="c-intro">
       <div class="c-intro__text">
-        <h1>{{ content.title }}</h1>
+        <h1>Inovace a Kreativita ve Webovém Designu</h1>
         <h2>Přizpůsobené webové stránky s osobním dotekem</h2>
         <p>Krátký odstavec, který zdůrazňuje vaše zkušenosti a schopnost poskytovat unikátní řešení pro každého klienta, s důrazem na profesionální přístup a individuální potřeby.</p>
       </div>
