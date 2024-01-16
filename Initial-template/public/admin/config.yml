@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # nebo main, podle toho, jakou hlavní větev používáte
+  branch: main # nebo main, podle toho, jakou hlavní větev používáte
 
 media_folder: "static/img" # Složka pro ukládání médií
 public_folder: "/img"
